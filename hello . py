@@ -1,0 +1,90 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyMkYvwVXVzSllLnebj24QCv",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/abenaitwe256/VYBEON/blob/main/hello%20.%20py\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "\"Hello, World!\""
+      ],
+      "metadata": {
+        "id": "s7dIPVaGpsDu"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name = input('What is your name?')"
+      ],
+      "metadata": {
+        "id": "QB0TCkzvv9TZ"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print( 'hello, ' + name + '!')"
+      ],
+      "metadata": {
+        "id": "pOvVEyagwH04"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = int(input(\"Enter a number: \"))\n",
+        "y = int(input(\"Enter another number: \"))\n",
+        "print(\"The sum is:\", x + y)"
+      ],
+      "metadata": {
+        "id": "L9X1t2ngxKjS"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "age = int(input(\"How old are you? \"))\n",
+        "if age >= 18:\n",
+        "    print(\"You are an adult!\")\n",
+        "else:\n",
+        "    print(\"You are a minor!\")"
+      ],
+      "metadata": {
+        "id": "vobQ66nIxZ6K"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
